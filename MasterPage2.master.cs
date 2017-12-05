@@ -15,4 +15,9 @@ public partial class MasterPage2 : System.Web.UI.MasterPage
     {
 
     }
+     protected void hlLogout_Click(object sender, EventArgs e)
+    {
+        Session.Abandon();
+        Response.Redirect("Login.aspx");
+    }
 }
