@@ -101,11 +101,12 @@
 </div>
           <!-- / header -->
         
-        <div style="margin-right:50px">
+        <  <div style="margin-right:50px">
             <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Right"> 
-                <a href="ChangePassword.aspx">Change Password</a>
-                <a href="EditProperty.aspx">Edit Property Details</a>
-                <a href="Login.aspx">Logout</a>
+                <asp:HyperLink ID="hlChangePassword" runat="server">Change Password</asp:HyperLink>
+                 &nbsp;&nbsp;<asp:HyperLink ID="hlEditProperty" runat="server" NavigateUrl="~/EditProperty.aspx">Edit Property</asp:HyperLink>
+&nbsp;          <asp:LinkButton ID="hlLogout" runat="server" OnClick="hlLogout_Click">Logout</asp:LinkButton>
+                 
             </asp:Panel>
       </div>
     <div>
