@@ -1,68 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AgentHome.aspx.cs" Inherits="AgentHome" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage2.master" AutoEventWireup="true" CodeFile="AgentHome.aspx.cs" Inherits="AgentHome" %>
 
-<!DOCTYPE html>
+<asp:Content ContentPlaceHolderID="head" runat="server"></asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Pro Zameen</title>
-
-<meta charset="utf-8"/>
-
-    <%--css Folder--%>
-<link rel="stylesheet" href="css/reset.css" type="text/css" media="all"/>
-<link rel="stylesheet" href="css/layout.css" type="text/css" media="all"/>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
-
-   <%-- js Folder--%>
-<script src="js/jquery-1.6.js" ></script>
-<script src="js/cufon-yui.js"></script>
-<script src="js/cufon-replace.js"></script>
-<script src="js/Didact_Gothic_400.font.js"></script>
-<script src="js/jquery.nivo.slider.pack.js"></script>
-<script src="js/atooltip.jquery.js"></script>
-<script src="js/jquery.jqtransform.js" ></script>
-<script src="js/script.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-    <style>
-        .h3 {
-	font-size:30px;
-	color:black;
-	line-height:1.2em;
-	padding:42px 0 19px 0;
-    width:100%;
-    height:50px;
+<asp:Content ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    
-}
-
-    </style>
-</head>
-<body id="page1">
-    <div class="body1">
-  <div class="main">
-    <!-- header -->
-    <header>
-      <h1><a href="index.html" id="logo"></a></h1>
-      <div class="wrapper">
-        <ul id="icons">
-            <li> <div class="cols pad_left1" style="float:right;width:99px"> <a href="#" class="button">+Add Property</a> </div></li>
-            <li style="font-size:15px"><a href="Login.aspx">Logout</a></li>
-             <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
-        </ul>
-      </div>
-      <nav>
-        <ul id="menu">
-          <li id="menu_active"><a href="Home.aspx">Main Page</a></li>
-          <li><a href="buying.aspx">Buying Estate</a></li>
-          <li><a href="selling.aspx">Selling Estate</a></li>
-          <li><a href="renting.aspx">Renting Estate</a></li>
-          <li><a href="finance.aspx">Finance</a></li>
-          <li class="end"><a href="ContactUs.aspx">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- / header -->
-  </div>
-</div>
    <div class="body2">
   <div class="main">
     <section id="content">
@@ -70,7 +11,6 @@
         <article class="col1">
           <div class="pad2">
          
-       <form runat="server">
         
            <img src="images/AddProperty.png" />
 
@@ -153,8 +93,7 @@
 
            </asp:Table>
      
-</form>
-        </div>
+ </div>
 
         </article>
 
@@ -165,24 +104,7 @@
   </div>
         </div>
          <!-- Footer Start -->
-<div class="body4">
-  <div class="main">
-    <!-- footer -->
-     
-    <footer> <span class="call">Call Center: <span>1-800-567-8934</span></span> Copyright &copy;  2017  <a href="http://www.businessexpertspk.com">Business Experts Pakistan</a> All Rights Reserved <br />
-      Design by <a target="_blank" href="http://www.software.businessexpertspk.com">Experts Software Development</a>
-        <br />
-        <br />
-        <a href="#" class="normaltip"><img src="images/icon1.jpg" alt=""/></a> &nbsp&nbsp
-        <a href="#" class="normaltip"><img src="images/icon2.jpg" alt=""/></a> &nbsp&nbsp
-        <a href="#" class="normaltip"><img src="images/icon3.jpg" alt=""/></a>
 
-
-      <!-- {%FOOTER_LINK} -->
-    </footer>
-    <!-- / footer -->
-  </div>
-</div>
 <script>Cufon.now();</script>
 <script>
     $(window).load(function () {
@@ -220,7 +142,6 @@
     });
 </script>
 
-
-
-</body>
-</html>
+    
+       
+</asp:Content>

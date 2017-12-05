@@ -8,14 +8,13 @@
     <title>Pro Zameen</title>
 <meta charset="utf-8"/>
 
-    <link rel="icon" type="image/png"  href="images/Logo.png" />
     <%--css Folder--%>
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all"/>
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all"/>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
 
    <%-- js Folder--%>
-
+<script src="js/jquery-1.6.js" ></script>
 <script src="js/cufon-yui.js"></script>
 <script src="js/cufon-replace.js"></script>
 <script src="js/Didact_Gothic_400.font.js"></script>
@@ -24,7 +23,7 @@
 <script src="js/jquery.jqtransform.js" ></script>
 <script src="js/script.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
-   
+    
     <%--javascriptauto Folder--%>
 <%--    <script src="javascriptauto/Gruntfile.js"></script>
     

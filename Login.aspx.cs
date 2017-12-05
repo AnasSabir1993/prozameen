@@ -49,7 +49,8 @@ public partial class Login : System.Web.UI.Page
                     cmd1.ExecuteNonQuery();
 
                     conn.Close();
-                    Response.Redirect("Home.aspx");
+                    Session["Name"] = txtUsername.Text;
+                    Response.Redirect("AgentHome.aspx");
                     
                 }
                 else

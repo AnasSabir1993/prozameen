@@ -1,0 +1,137 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Pro Zameen</title>
+
+<meta charset="utf-8"/>
+
+
+    <%--css Folder--%>
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+<link href="css/dropdown.css" rel="stylesheet" type="text/css" media="all"/>
+
+   <%-- js Folder--%>
+<script src="js/jquery-1.6.js" ></script>
+<script src="js/cufon-yui.js"></script>
+<script src="js/cufon-replace.js"></script>
+<script src="js/Didact_Gothic_400.font.js"></script>
+<script src="js/jquery.nivo.slider.pack.js"></script>
+<script src="js/atooltip.jquery.js"></script>
+<script src="js/jquery.jqtransform.js" ></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+         <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+     <style>
+
+        input.text {
+            width: 78px;
+            background:#fff;
+	        font:12px Arial, Helvetica, sans-serif;
+	        color:#191919;
+	        float:left;
+	        padding:3px 10px;
+	        height:14px;
+           
+        }
+        .input1 {
+	background:#fff;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#191919;
+	float:left;
+	padding:3px 10px;
+	height:14px;
+	width:195px !important
+}
+        row1 {
+	            min-height:46px;
+	            width:100%;
+	            overflow:hidden
+            }
+            #form_1 .row_select1 {
+	            min-height:46px;
+	            width:100%
+            }
+
+          .list {  color:black;padding: 0; margin: 0;}
+
+        
+
+    </style>
+</head>
+
+<body id="page1">
+    <form runat="server">
+    <section id="container">
+     <div class="body1">
+     <div class="main">
+
+    <!-- header -->
+  <header>
+      <h1><a href="index.html" id="logo"></a></h1>
+      <div class="wrapper">
+        <ul id="icons">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li style="font-size:20px"> <asp:Button ID="btnAddProperty" runat="server" Text="Add Property" CssClass="button"/></li>
+          
+
+        </ul>
+      </div>
+      <nav>
+        <ul id="menu">
+          <li id="menu_active"><a href="Home.aspx">Main Page</a></li>
+          <li><a href="buying.aspx">AboutUs</a></li>
+          <li><a href="selling.aspx">Career</a></li>
+          <li><a href="renting.aspx">Renting Estate</a></li>
+          <li><a href="finance.aspx">Finance</a></li>
+          <li class="end"><a href="ContactUs.aspx">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+  </div>
+</div>
+          <!-- / header -->
+        
+        <div style="margin-right:50px">
+            <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Right"> 
+                <a href="ChangePassword.aspx">Change Password</a>
+                <a href="EditProperty.aspx">Edit Property Details</a>
+                <a href="Login.aspx">Logout</a>
+            </asp:Panel>
+      </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+   <div class="body4">
+  <div class="main">
+    <!-- footer -->
+     
+    <footer> <span class="call">Call Center: <span>1-800-567-8934</span></span> Copyright &copy;  2017  <a href="http://www.businessexpertspk.com">Business Experts Pakistan</a> All Rights Reserved <br />
+      Design by <a target="_blank" href="http://www.software.businessexpertspk.com">Experts Software Development</a>
+        <br />
+        <br />
+        <a href="#" class="normaltip"><img src="images/icon1.jpg" alt=""/></a> &nbsp&nbsp
+        <a href="#" class="normaltip"><img src="images/icon2.jpg" alt=""/></a> &nbsp&nbsp
+        <a href="#" class="normaltip"><img src="images/icon3.jpg" alt=""/></a>
+
+
+      <!-- {%FOOTER_LINK} -->
+    </footer>
+    <!-- / footer -->
+  </div>
+</div>
+</section>
+</form>
+</body>
+</html>

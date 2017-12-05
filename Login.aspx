@@ -14,7 +14,14 @@
 
    <%-- js Folder--%>
 <script src="js/jquery-1.6.js" ></script>
-
+<script src="js/cufon-yui.js"></script>
+<script src="js/cufon-replace.js"></script>
+<script src="js/Didact_Gothic_400.font.js"></script>
+<script src="js/jquery.nivo.slider.pack.js"></script>
+<script src="js/atooltip.jquery.js"></script>
+<script src="js/jquery.jqtransform.js" ></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
     <style type="text/css">
         body
         {

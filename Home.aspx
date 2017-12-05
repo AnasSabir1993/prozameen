@@ -3,15 +3,28 @@
  
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+<%--<script src="javascriptauto/Gruntfile.js"></script>
     <script src="javascriptauto/jquery-1.10.2.js"></script>
-    <script src="javascriptauto/jquery-ui-1.10.4.custom.min.js"></script>
-    <script src="javascriptauto/jquery-ui-1.10.4.custom.js"></script>
     <link href="javascriptauto/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+    <script src="javascriptauto/jquery-ui-1.10.4.custom.js"></script>
     <link href="javascriptauto/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
-    <script src="javascriptauto/jquery.ui.autocomplete.js"></script>
-    <script src="javascriptauto/jquery.ui.autocomplete.min.js"></script>
-    <script src="javascriptauto/jquery.ui.core.js"></script>
+    <script src="javascriptauto/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="javascriptauto/jquery-ui.custom.js"></script>
+    <script src="javascriptauto/jquery-ui.custom.min.js"></script>
+    <script src="javascriptauto/jquery.ui.menu.js"></script>
+    <script src="javascriptauto/jquery.ui.menu.min.js"></script>
+    <script src="javascriptauto/jquery.ui.position.js"></script>
+    <script src="javascriptauto/jquery.ui.position.min.js"></script>
+    <script src="javascriptauto/jquery.ui.widget.js"></script>
+    <script src="javascriptauto/jquery.ui.widget.min.js"></script>
+     <script src="javascriptauto/jquery.ui.core.js"></script>
     <script src="javascriptauto/jquery.ui.core.min.js"></script>
+   <script src="javascriptauto/jquery.ui.autocomplete.js"></script>
+    <script src="javascriptauto/jquery.ui.autocomplete.min.js"></script>
+ 
+      <script src="javascriptauto/jquery-1.10.2.js"></script>
+      <script src="javascriptauto/jquery-ui-1.10.4.custom.js"></script>
+      <script src="javascriptauto/jquery-ui-1.10.4.custom.min.js"></script>--%>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -112,7 +125,8 @@
               
                             <%--  <asp:TextBox ID="txtArea" runat="server" CssClass="input"></asp:TextBox>--%>
 
-              <select id = "ddlAreas" style="width:102%"> </select>
+              <select id = "ddlAreas">
+</select>
                          </div>
                 </div>
                            </ContentTemplate>
